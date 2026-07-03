@@ -28,4 +28,5 @@ sistemas de recomendación, estadística aplicada y desarrollo de escritorio en 
 
 ## Contacto
 
+- LinkedIn: [cristian-carrera](https://www.linkedin.com/in/cristian-carrera-b3065729b)
 - Correo: cristiancarrera1226@gmail.com
