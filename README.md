@@ -10,6 +10,7 @@ y herramientas que resuelven problemas reales.
 | Proyecto | Qué es | Tecnologías |
 |---|---|---|
 | [rental-price-estimator-sd](https://github.com/Criscarr26/rental-price-estimator-sd) | Estimador de precios de alquiler para Santo Domingo con regresión lineal (R² 0.93) — [demo en vivo](https://rental-price-estimator-sd.streamlit.app) | scikit-learn, Streamlit |
+| [rental-listings-agent](https://github.com/Criscarr26/rental-listings-agent) | Agente autónomo (tool use con la API de Anthropic) que recolecta alquileres reales de Santo Domingo respetando robots.txt, con validación de schema y presupuesto de costo | Anthropic API, Python |
 | [laser-chess](https://github.com/Criscarr26/laser-chess) | Juego de estrategia con láseres y espejos, con IA minimax — [jugarlo en vivo](https://criscarr26.github.io/laser-chess/) | JavaScript, HTML/CSS |
 | [federated-fraud-detection](https://github.com/Criscarr26/federated-fraud-detection) | Detección de fraude con aprendizaje federado y privacidad diferencial | PyTorch, Flower |
 | [uno-python](https://github.com/Criscarr26/uno-python) | UNO con agente minimax, poda alfa-beta y benchmark de heurísticas | Python |
