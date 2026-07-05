@@ -9,6 +9,7 @@ y herramientas que resuelven problemas reales.
 
 | Proyecto | Qué es | Tecnologías |
 |---|---|---|
+| [rental-price-estimator-sd](https://github.com/Criscarr26/rental-price-estimator-sd) | Estimador de precios de alquiler para Santo Domingo con regresión lineal (R² 0.93) y demo web | scikit-learn, Streamlit |
 | [laser-chess](https://github.com/Criscarr26/laser-chess) | Juego de estrategia con láseres y espejos, con IA minimax — [jugarlo en vivo](https://criscarr26.github.io/laser-chess/) | JavaScript, HTML/CSS |
 | [federated-fraud-detection](https://github.com/Criscarr26/federated-fraud-detection) | Detección de fraude con aprendizaje federado y privacidad diferencial | PyTorch, Flower |
 | [uno-python](https://github.com/Criscarr26/uno-python) | UNO con agente minimax, poda alfa-beta y benchmark de heurísticas | Python |
@@ -24,7 +25,7 @@ sistemas de recomendación, estadística aplicada y desarrollo de escritorio en 
 - **Lenguajes:** Python, JavaScript, C#, SQL
 - **IA / ML:** PyTorch, scikit-learn, OpenCV, pandas, algoritmos de búsqueda y juegos (minimax, A*)
 - **Backend:** FastAPI, MySQL, SQL Server, MongoDB
-- **Herramientas:** Git, GitHub Actions, Jupyter, Visual Studio
+- **Herramientas:** Git, GitHub Actions, Jupyter, Visual Studio, Streamlit
 
 ## Contacto
 
