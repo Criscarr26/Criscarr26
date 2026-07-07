@@ -10,6 +10,7 @@ y herramientas que resuelven problemas reales.
 | Proyecto | Qué es | Tecnologías |
 |---|---|---|
 | [rental-price-estimator-sd](https://github.com/Criscarr26/rental-price-estimator-sd) | Estimador de precios de alquiler para Santo Domingo con regresión lineal (R² 0.93) — [demo en vivo](https://rental-price-estimator-sd.streamlit.app) | scikit-learn, Streamlit |
+| [rental-estimator-mobile](https://github.com/Criscarr26/rental-estimator-mobile) | App móvil del tasador: predicción on-device (modelo exportado a TypeScript y verificado contra el pipeline real) e historial en la nube con auth y Row Level Security | Expo/React Native, Supabase |
 | [rental-listings-agent](https://github.com/Criscarr26/rental-listings-agent) | Agente autónomo (tool use con la API de Anthropic) que recolecta alquileres reales de Santo Domingo respetando robots.txt, con validación de schema y presupuesto de costo | Anthropic API, Python |
 | [laser-chess](https://github.com/Criscarr26/laser-chess) | Juego de estrategia con láseres y espejos, con IA minimax — [jugarlo en vivo](https://criscarr26.github.io/laser-chess/) | JavaScript, HTML/CSS |
 | [federated-fraud-detection](https://github.com/Criscarr26/federated-fraud-detection) | Detección de fraude con aprendizaje federado y privacidad diferencial | PyTorch, Flower |
@@ -25,7 +26,8 @@ sistemas de recomendación, estadística aplicada y desarrollo de escritorio en 
 
 - **Lenguajes:** Python, JavaScript, C#, SQL
 - **IA / ML:** PyTorch, scikit-learn, OpenCV, pandas, algoritmos de búsqueda y juegos (minimax, A*)
-- **Backend:** FastAPI, MySQL, SQL Server, MongoDB
+- **Backend:** FastAPI, MySQL, SQL Server, MongoDB, Supabase
+- **Móvil:** React Native (Expo)
 - **Herramientas:** Git, GitHub Actions, Jupyter, Visual Studio, Streamlit
 
 ## Contacto
