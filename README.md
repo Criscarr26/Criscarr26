@@ -9,6 +9,7 @@ y herramientas que resuelven problemas reales.
 
 | Proyecto | Qué es | Tecnologías |
 |---|---|---|
+| [tasador-sd](https://github.com/Criscarr26/tasador-sd) | Plataforma SaaS de tasación de alquileres: un modelo ML, un contrato de dominio y clientes sincronizados (web, móvil, agente de datos) con auth e historial compartidos, límites de plan en BD y CI | FastAPI, Next.js, Supabase, scikit-learn |
 | [rental-price-estimator-sd](https://github.com/Criscarr26/rental-price-estimator-sd) | Estimador de precios de alquiler para Santo Domingo con regresión lineal (R² 0.93) — [demo en vivo](https://rental-price-estimator-sd.streamlit.app) | scikit-learn, Streamlit |
 | [rental-estimator-mobile](https://github.com/Criscarr26/rental-estimator-mobile) | App móvil del tasador: predicción on-device (modelo exportado a TypeScript y verificado contra el pipeline real) e historial en la nube con auth y Row Level Security | Expo/React Native, Supabase |
 | [rental-listings-agent](https://github.com/Criscarr26/rental-listings-agent) | Agente autónomo (tool use con la API de Anthropic) que recolecta alquileres reales de Santo Domingo respetando robots.txt, con validación de schema y presupuesto de costo | Anthropic API, Python |
