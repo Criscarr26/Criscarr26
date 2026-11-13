@@ -1,36 +1,71 @@
 # Hi, I'm Cristian Carrera
 
 **Artificial Intelligence** student at [ITLA](https://itla.edu.do)
-(Instituto Tecnológico de Las Américas, Dominican Republic). I like building
-things people can actually use: AI-powered games, machine learning models
-and tools that solve real problems.
+(Instituto Tecnológico de Las Américas, Dominican Republic). I build things
+people can actually use: a rental-appraisal SaaS running in production, agents
+that learn to play, robots simulated before they are built, and automation that
+quietly runs in my own life.
 
-## Featured projects
+## Main product
 
 | Project | What it is | Tech |
 |---|---|---|
-| [tasador-sd](https://github.com/Criscarr26/tasador-sd) | **My main product**: a rental-appraisal SaaS platform — one ML model, one domain contract and synchronized clients (web, mobile, data agent) with shared auth and history, DB-backed plan limits and CI — [live product](https://tasadorsd.vercel.app) | FastAPI, Next.js, Supabase, scikit-learn |
-| [real-estate-ai-platform](https://github.com/Criscarr26/real-estate-ai-platform) | Executive overview of Tasador SD: architecture, status, roadmap and go-to-market strategy of the platform | Documentation |
-| [rental-estimator-mobile](https://github.com/Criscarr26/rental-estimator-mobile) | Tasador SD mobile client: on-device prediction (model exported to TypeScript and verified against the real pipeline), model-weight sync from the API and cloud history with RLS | Expo/React Native, Supabase |
-| [rental-listings-agent](https://github.com/Criscarr26/rental-listings-agent) | Autonomous agent (Anthropic API tool use) that collects real Santo Domingo rental listings while respecting robots.txt, with schema validation and a cost budget — demo of the Tasador SD data engine | Anthropic API, Python |
-| [rental-price-estimator-sd](https://github.com/Criscarr26/rental-price-estimator-sd) | The original appraiser demo (linear regression, R² 0.93) that grew into the Tasador SD platform | scikit-learn, Streamlit |
-| [laser-chess](https://github.com/Criscarr26/laser-chess) | Strategy game with lasers and mirrors, with a minimax AI — [play it live](https://criscarr26.github.io/laser-chess/) | JavaScript, HTML/CSS |
-| [federated-fraud-detection](https://github.com/Criscarr26/federated-fraud-detection) | Fraud detection with federated learning and differential privacy | PyTorch, Flower |
-| [uno-python](https://github.com/Criscarr26/uno-python) | UNO with a minimax agent, alpha-beta pruning and a heuristics benchmark | Python |
-| [computer-vision-lab](https://github.com/Criscarr26/computer-vision-lab) | Filters, edge detection, contours and scene recognition | OpenCV |
-| [mini-inventory-api](https://github.com/Criscarr26/mini-inventory-api) | Inventory REST API in two variants: SQL and MongoDB | FastAPI |
-| [mysql-lab](https://github.com/Criscarr26/mysql-lab) | From fundamentals to query optimization with EXPLAIN | MySQL |
+| [tasador-sd](https://github.com/Criscarr26/tasador-sd) | **Rental-appraisal SaaS for Santo Domingo** — one ML model, one domain contract and synchronized clients, with shared auth, plan limits enforced in the database and CI — [live product](https://tasadorsd.vercel.app) | FastAPI, Next.js, Supabase, scikit-learn |
 
-The rest of my repositories cover search agents (BFS, DFS, A*), ETL,
-recommender systems, applied statistics and C# desktop development.
+Around it: [real-estate-ai-platform](https://github.com/Criscarr26/real-estate-ai-platform)
+(architecture, roadmap and go-to-market),
+[rental-estimator-mobile](https://github.com/Criscarr26/rental-estimator-mobile)
+(on-device prediction verified against the real pipeline),
+[rental-listings-agent](https://github.com/Criscarr26/rental-listings-agent)
+(autonomous data collection) and
+[rental-price-estimator-sd](https://github.com/Criscarr26/rental-price-estimator-sd)
+(the original demo it grew from).
+
+## AI & machine learning
+
+| Project | What it is | Tech |
+|---|---|---|
+| [smart-top-down](https://github.com/Criscarr26/smart-top-down) | Top-down game whose enemy is a neural network trained with genetic algorithms — plus a lab where the fitness function is editable while a real episode draws itself, sensors and all | Godot 4, GDScript |
+| [transcriptor-local](https://github.com/Criscarr26/transcriptor-local) | Transcribes a two-hour recording to text **without the file ever leaving the browser** — Whisper running locally, no per-minute fees | transformers.js, Whisper |
+| [federated-fraud-detection](https://github.com/Criscarr26/federated-fraud-detection) | Fraud detection with federated learning and differential privacy | PyTorch, Flower |
+| [computer-vision-lab](https://github.com/Criscarr26/computer-vision-lab) | Filters, edge detection, contours and scene recognition | OpenCV |
+
+## Game AI
+
+| Project | What it is | Tech |
+|---|---|---|
+| [laser-chess](https://github.com/Criscarr26/laser-chess) | Lasers and mirrors strategy game with a minimax AI — [play it live](https://criscarr26.github.io/laser-chess/) | JavaScript |
+| [genetic-dash](https://github.com/Criscarr26/genetic-dash) | Rhythm platformer whose bots learn the levels through genetic algorithms | Godot 4, GDScript |
+| [uno-python](https://github.com/Criscarr26/uno-python) | UNO agent: minimax with alpha-beta pruning, iterative deepening and a heuristics benchmark | Python |
+
+## Automation I actually use
+
+| Project | What it is | Tech |
+|---|---|---|
+| [expense-summary](https://github.com/Criscarr26/expense-summary) | Reads my banks' email notifications, classifies them and sends Telegram alerts plus weekly, monthly and yearly reports in PDF and CSV — no banking credentials required | Python, SQLite, Telegram |
+| [email-organizer-n8n](https://github.com/Criscarr26/email-organizer-n8n) | Checks unread mail every 5 minutes, classifies it with Claude and acts on each category | n8n, Claude API |
+| [github-uploader](https://github.com/Criscarr26/github-uploader) | Scans Documents for code projects, screens each one for sensitive data and publishes it only after explicit confirmation | Python |
+
+## Robotics & IoT
+
+| Project | What it is | Tech |
+|---|---|---|
+| [smartpower-rd](https://github.com/Criscarr26/smartpower-rd) | Electrical monitoring with automatic transfer to an inverter and remote notification, on a multitasking architecture | ESP32, FreeRTOS, C++ |
+| [soccerbot-rd](https://github.com/Criscarr26/soccerbot-rd) | Low-cost RoboCupJunior soccer robot designed and validated as a digital twin — [read the deliverable](https://criscarr26.github.io/soccerbot-rd/) | Webots |
+| [practicas-arduino-itla](https://github.com/Criscarr26/practicas-arduino-itla) | Eight Arduino projects, up to serial telemetry analyzed by a separate program in another language — each sketch documents what was tried and what failed | Arduino, C++ |
+
+The rest of my repositories cover backend and data work (REST APIs, MySQL
+design and query optimization), search agents (BFS, DFS, A*), ETL, recommender
+systems, applied statistics and C# desktop development.
 
 ## Stack
 
-- **Languages:** Python, JavaScript, C#, SQL
-- **AI / ML:** PyTorch, scikit-learn, OpenCV, pandas, search and game algorithms (minimax, A*)
-- **Backend:** FastAPI, MySQL, SQL Server, MongoDB, Supabase
-- **Mobile:** React Native (Expo)
-- **Tools:** Git, GitHub Actions, Jupyter, Visual Studio, Streamlit
+- **Languages:** Python, JavaScript/TypeScript, C++, C#, SQL, GDScript
+- **AI / ML:** PyTorch, scikit-learn, OpenCV, transformers.js, genetic algorithms, search and game algorithms (minimax, A*)
+- **Backend:** FastAPI, Next.js, Supabase, MySQL, SQL Server, MongoDB
+- **Embedded / IoT:** ESP32, FreeRTOS, Arduino, Webots
+- **Automation:** n8n, GitHub Actions
+- **Tools:** Git, Jupyter, Godot, Streamlit
 
 ## Contact
 
