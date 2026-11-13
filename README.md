@@ -40,11 +40,14 @@ Around it: [real-estate-ai-platform](https://github.com/Criscarr26/real-estate-a
 
 ## Automation I actually use
 
+These run on my own accounts and stay private, since they read personal
+mail and banking notifications. Happy to walk through the code.
+
 | Project | What it is | Tech |
 |---|---|---|
-| [expense-summary](https://github.com/Criscarr26/expense-summary) | Reads my banks' email notifications, classifies them and sends Telegram alerts plus weekly, monthly and yearly reports in PDF and CSV — no banking credentials required | Python, SQLite, Telegram |
-| [email-organizer-n8n](https://github.com/Criscarr26/email-organizer-n8n) | Checks unread mail every 5 minutes, classifies it with Claude and acts on each category | n8n, Claude API |
-| [github-uploader](https://github.com/Criscarr26/github-uploader) | Scans Documents for code projects, screens each one for sensitive data and publishes it only after explicit confirmation | Python |
+| expense-summary *(private)* | Reads my banks' email notifications, classifies them and sends Telegram alerts plus weekly, monthly and yearly reports in PDF and CSV — no banking credentials required | Python, SQLite, Telegram |
+| email-organizer-n8n *(private)* | Checks unread mail every 5 minutes, classifies it with Claude and acts on each category | n8n, Claude API |
+| github-uploader *(private)* | Scans Documents for code projects, screens each one for sensitive data and publishes it only after explicit confirmation | Python |
 
 ## Robotics & IoT
 
